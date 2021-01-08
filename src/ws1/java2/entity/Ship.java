@@ -1,4 +1,4 @@
-package ws1.java2.entity;
+ package ws1.java2.entity;
 
 public class Ship {
     private String modelName;
