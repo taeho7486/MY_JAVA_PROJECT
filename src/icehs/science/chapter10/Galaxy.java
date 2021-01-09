@@ -5,4 +5,16 @@ private String osVersion;
 public Galaxy() {
 	super("Galaxy");
 }
+@Override
+public void charge(int time) {
+	System.out.println("Galaxy : 보조배터리" + time + "분 충전");
+}
+public String getOsVersion() {
+	return osVersion;
+}
+public void setOsVersion(String osVersion) {
+	this.osVersion = osVersion;
+	System.out.println("Galaxy : " + osVersion);
+}
+
 }
